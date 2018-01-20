@@ -39,7 +39,7 @@ img{
   width:100% max-width:180px;
   margin: 10 auto;
   padding: 10px;
-  box-shadow: 10px 10px 5px #ccc;
+
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
@@ -60,14 +60,10 @@ img:hover {
 }
 
 h3{
-background-color: #2E4053;
+background-color: #515A5A;
 color: white;
 font-size: 16px;
 padding: 16px 32px;
-}
-
-hr{
-  width: 60%;
 }
 
 .footer-basic-centered{
