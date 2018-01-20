@@ -1,0 +1,140 @@
+body {
+  padding:0;
+  margin:0;
+}
+.header{
+  background: url(../img/2.jpg) no-repeat center top;
+  text-align:center;
+  background-attachment: relative;
+  padding: 20px;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  word-wrap: break-word;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 300;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+}
+.images {
+    position:relative;
+    width:100% max-width:600px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align:center;
+}
+img{
+  border: 2px solid gray;
+  position:relative;
+  display:inline-block;
+  width:100% max-width:180px;
+  margin: 10 auto;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #ccc;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+img:hover {
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+      -webkit-transform:scale(1.5);
+      transform:scale(1.08);
+      -webkit-transition-duration: 0.5s;
+      -webkit-box-shadow:0px 0px 30px #ccc;
+
+}
+.img{
+  position:relative;
+  display:inline-block;
+  width:100% max-width:180px;
+  margin: 10 auto;
+  padding: 10px 10px 10px 10px;
+}
+
+h3{
+background-color: #2E4053;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+hr{
+  width: 60%;
+}
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+	padding: 30px 35px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 10px;
+}
+
+.footer-basic-centered p.footer-links a{
+	display:inline-block;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+
+}
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+    text-align: center;
+    float: none;
+		margin: 0 auto 20px;
+	}
+}
