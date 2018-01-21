@@ -3,7 +3,7 @@ body {
   margin:0;
 }
 .header{
-  background: url(../img/2.jpg) no-repeat center top;
+  background: url(../img/3.jpg) no-repeat center top;
   text-align:center;
   background-attachment: relative;
   padding: 20px;
@@ -25,49 +25,44 @@ h1{
   font-size: 6.3vh;
   padding: 10px;
 }
-.images {
-    position:relative;
-    width:100% max-width:600px;
-    margin: 0 auto;
-    padding: 0px;
-    text-align:center;
+input{
+  width: 100px;
+  height: 80px;
+  font-size: 50px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #515A5A;
+  color: #fff;
+  border-style: none;
 }
-img{
-  border: 2px solid gray;
-  position:relative;
-  display:inline-block;
-  width:100% max-width:180px;
-  margin: 10 auto;
-  padding: 10px;
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
+#myCalc{
+text-align: center;
 }
-a:visited {
-  color: white;
+#buttonPlus{
+  background-color: #138D75;
 }
-img:hover {
-      filter: alpha(opacity=100); /* For IE8 and earlier */
-      -webkit-transform:scale(1.5);
-      transform:scale(1.08);
-      -webkit-transition-duration: 0.5s;
-      -webkit-box-shadow:0px 0px 30px #ccc;
+#buttonMinus{
+  background-color: #D68910;
+}
+#buttonMultiply{
+  background-color: #8E44AD;
+}
+#buttonClear{
+  background-color: #C0392B;
+}
+#buttonEqual{
+  background-color: green;
+}
+#buttonDivide{
+  background-color:#D35400;
+}
+#buttonDisplay{
+  width: 475px;
+  height: 100px;
+  text-align: center;
+  background-color: #5DADE2;
+}
 
-}
-.img{
-  position:relative;
-  display:inline-block;
-  width:100% max-width:180px;
-  margin: 10 auto;
-  padding: 10px 10px 10px 10px;
-}
-
-h3{
-background-color: #515A5A;
-color: white;
-font-size: 16px;
-font-family: sans-serif;
-padding: 16px 32px;
-}
 
 .footer-basic-centered{
 	background-color: #292c2f;
@@ -76,12 +71,12 @@ padding: 16px 32px;
 	width: 100%;
 	text-align: center;
 	font: normal 18px sans-serif;
-	padding: 30px 35px;
+	padding: 10px 15px;
 }
 
 .footer-basic-centered .footer-company-motto{
 	color:  #8d9093;
-	font-size: 24px;
+	font-size: 18px;
 	margin: 0;
 }
 
@@ -92,7 +87,7 @@ padding: 16px 32px;
 }
 
 .footer-basic-centered p.footer-links{
-	font-size:18px;
+	font-size:15px;
 	font-weight: bold;
 	color:  #ffffff;
 	margin: 0 0 10px;
@@ -104,10 +99,10 @@ padding: 16px 32px;
   background-color:  #33383b;
   border-radius: 2px;
 
-  font-size: 20px;
+  font-size: 15px;
   color: #ffffff;
   text-align: center;
-  padding: 12px;
+  padding: 5px;
 
 }
 
