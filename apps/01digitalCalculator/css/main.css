@@ -1,6 +1,18 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
-  padding:0;
-  margin:0;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .header{
   background: url(../img/3.jpg) no-repeat center top;
@@ -63,7 +75,6 @@ text-align: center;
   background-color: #5DADE2;
 }
 
-
 .footer-basic-centered{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -72,6 +83,13 @@ text-align: center;
 	text-align: center;
 	font: normal 18px sans-serif;
 	padding: 10px 15px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
 .footer-basic-centered .footer-company-motto{

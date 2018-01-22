@@ -1,6 +1,18 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
-  padding:0;
-  margin:0;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .header{
   background: url(../img/3.jpg) no-repeat center top;
@@ -64,6 +76,13 @@ h1{
 	text-align: center;
 	font: normal 25px sans-serif;
 	padding: 40px 45px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }
 
 .footer-basic-centered .footer-company-motto{
